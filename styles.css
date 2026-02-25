@@ -140,24 +140,6 @@ a:hover { text-decoration: underline; }
     color: var(--cp-color-muted);
 }
 
-/* ── Status ── */
-.status-banner { padding: 3rem 2rem; background: white; }
-.status-banner h2 { text-align: center; margin-bottom: 1rem; font-size: 1.8rem; }
-.status-note { text-align: center; color: var(--cp-color-muted); font-size: 0.85rem; margin-bottom: 1.5rem; }
-.status-grid { max-width: 500px; margin: 0 auto; display: flex; flex-direction: column; gap: 0.75rem; }
-.status-item {
-    display: flex;
-    align-items: center;
-    gap: 0.75rem;
-    padding: 0.75rem 1rem;
-    background: var(--cp-color-bg);
-    border-radius: var(--cp-radius-md);
-    font-size: 0.9rem;
-}
-.status-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
-.operational .status-dot { background: var(--cp-color-success); }
-.degraded .status-dot { background: var(--cp-color-warning); }
-
 /* ── Integrations ── */
 .integration-section { padding: 3rem 2rem; text-align: center; }
 .integration-section h2 { margin-bottom: 0.5rem; font-size: 1.8rem; }
